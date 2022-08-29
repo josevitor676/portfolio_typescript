@@ -7,7 +7,8 @@ export const SobreMim = () => {
         alignItems="center" 
         h="100vh" 
         background="#fff"
-        _dark={{background: "#0c0c0d"}}
+        _dark={{background: "#0c0c0d", borderBottom: "2px solid #7f7f7f"}}
+        borderBottom="2px solid #212529"
         >
             <Box>
                 <Text 

@@ -14,6 +14,9 @@ export const theme = extendTheme({
         bg: {
             light: "#ffffff",
             dark: "#0c0c0d",
+        },
+        blue: {
+            100: "#1747A6"
         }
     }
 })
