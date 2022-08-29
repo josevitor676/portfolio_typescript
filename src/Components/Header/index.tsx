@@ -13,6 +13,7 @@ export const Header = () => {
          _dark={{background: "#0c0c0d", borderBottom: "2px solid #7f7f7f"}}
         h="70px"
         alignItems="center"
+        w="100%"
         >
             <Text 
             marginLeft="30px"
