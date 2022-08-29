@@ -40,10 +40,10 @@ export const Apresentation = () => {
                 onInit={(typewriter) => {
                     typewriter
                     .start()
-                    .typeString("Desenvolvedor Front-end")
+                    .typeString("Desenvolvedor Front-end Junior")
                     .pauseFor(2000)
                     .deleteAll()
-                    .typeString("Desenvolvedor Web")
+                    .typeString("Desenvolvedor Web Junior")
                     .pauseFor(2000)
                     .deleteAll()
                     .start()

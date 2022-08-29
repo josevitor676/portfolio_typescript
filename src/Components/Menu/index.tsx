@@ -36,7 +36,7 @@ export const MenuOptions = () => {
           opacity: "0.8",
         }}
         >
-          Projetos
+          Tecnologias
         </MenuItem>
         <MenuItem
         fontWeight="bold"
@@ -47,7 +47,7 @@ export const MenuOptions = () => {
           opacity: "0.8",
         }}
         >
-          Resumo
+          Projetos
         </MenuItem>
         <MenuItem
         fontWeight="bold"
