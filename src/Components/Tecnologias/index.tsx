@@ -2,13 +2,15 @@ import { Box, Flex, Text } from "@chakra-ui/react"
 import { CardTecs } from "../CardTecs"
 import {FaReact } from "react-icons/fa"
 import {SiTypescript, SiJavascript, SiCss3, SiHtml5, SiGithub, SiRedux, SiStyledcomponents} from 'react-icons/si'
-import {GiMatterStates} from "react-icons/gi"
 
 
 export const Tecnlogias = () => {
     return (
-        <Flex flexDirection="column" h="auto" justifyContent="space-around" _dark={{background: "#0c0c0d"}}>
+        <Flex flexDirection="column" h={["auto","auto", "auto", "auto", "100vh"]} justifyContent="space-around" _dark={{background: "#0c0c0d", borderBottom: "2px solid #7f7f7f"}} borderBottom="2px solid #212529">
+
             <Text fontSize={["25px","30px","40px"]} fontWeight="bold" color="#1747A6" textAlign="center" mt="20px">Tecnologias</Text>
+
+
             <Box mt="15px" display="flex" flexDirection='row' flexWrap="wrap" justifyContent="center">
                 <CardTecs nameTec="React" valorProgress={100} icon={FaReact} descTec="O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web."/>
 
@@ -26,7 +28,6 @@ export const Tecnlogias = () => {
 
                 <CardTecs nameTec="Styled-components" valorProgress={100} icon={SiStyledcomponents} descTec="Styled components é uma biblioteca que possibilita escrever códigos CSS dentro do JavaScript"/>
 
-                <CardTecs nameTec="Context" valorProgress={100} icon={GiMatterStates} descTec=" Ela é usada para gerenciar os estados dos seus componentes dentro de uma aplicação web sem precisar usar algum pacote para isso."/>
             </Box>
         </Flex>
     )

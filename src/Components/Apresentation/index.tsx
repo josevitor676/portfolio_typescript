@@ -56,8 +56,8 @@ export const Apresentation = () => {
             p="5" 
             background="#eeeeee"
             color="#5b5b5b"
-            m="10px"
             _hover={{color: "#1747A6", transition: "ease 0.6s"}}
+            m="10px"
             >
                 Download CV
             </Button>
