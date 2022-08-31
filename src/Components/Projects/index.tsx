@@ -86,19 +86,19 @@ export const Projects = ({ projects }: ProjectsListProps) => {
                   color="#212529"
                   _dark={{ color: "#7f7f7f" }}
                 >
-                  <Text fontWeight="bold" fontSize={["16px","16px","17px"]}>
+                  <Text fontWeight="bold" fontSize="16px">
                     Nome do Projeto: {project.name}
                   </Text>
-                  <Text fontSize={["14px","14px","15px"]}>
-                    <Text fontWeight="bold" fontSize={["16px","16px","17px"]}>Descrição:</Text>
+                  <Text fontSize="14px">
+                    <Text fontWeight="bold"fontSize="16px">Descrição:</Text>
                     {project.descricao}
                   </Text>
-                  <Text fontSize={["16px","16px","17px"]} fontWeight="bold">
+                  <Text fontSize="16px" fontWeight="bold">
                     Tecnologias Usadas:
                   </Text>
                   <List display="flex" flexDirection="row" flexWrap="wrap">
                     {project.techs.map((tech) => (
-                      <ListItem m="3px" fontSize={["14px","14px","15px"]}>
+                      <ListItem m="3px" fontSize="14px">
                         {tech}.
                       </ListItem>
                     ))}
@@ -107,7 +107,7 @@ export const Projects = ({ projects }: ProjectsListProps) => {
                 <Flex>
                   <Link
                     mr="20px"
-                    p="6px"
+                    p="4px"
                     borderRadius="10px"
                     background="#eeeeee"
                     color="#5b5b5b"
@@ -120,7 +120,7 @@ export const Projects = ({ projects }: ProjectsListProps) => {
                   </Link>
                   <Link
                     ml="20px"
-                    p="6px"
+                    p="4px"
                     borderRadius="10px"
                     background="#eeeeee"
                     color="#5b5b5b"

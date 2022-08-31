@@ -1,4 +1,5 @@
 import React from 'react';
+import { Contato } from './Components/Contato';
 import { Main } from './Components/Main';
 import { Projects } from './Components/Projects';
 import { SobreMim } from './Components/SobreMim';
@@ -11,6 +12,7 @@ function App() {
     <SobreMim/>
     <Tecnlogias/>
     <Projects projects={ProjectsList}/>
+    <Contato/>
     </>
   );
 }
