@@ -1,4 +1,4 @@
-import { Button, Flex, Text, VStack } from "@chakra-ui/react";
+import { Button, Flex, Link, Text, VStack } from "@chakra-ui/react";
 import Typewriter from "typewriter-effect";
 
 
@@ -51,16 +51,19 @@ export const Apresentation = () => {
                 }}
                 />
             </Text>
-            <Button 
+            <Link
             borderRadius="10px" 
-            p="5" 
+            p="8px"
+            fontWeight="bold"
             background="#eeeeee"
             color="#5b5b5b"
+            href="https://www.canva.com/design/DAFE-8MDwvY/view"
+            isExternal
             _hover={{color: "#1747A6", transition: "ease 0.6s"}}
             m="10px"
             >
                 Download CV
-            </Button>
+            </Link>
         </Flex>
     )
 }

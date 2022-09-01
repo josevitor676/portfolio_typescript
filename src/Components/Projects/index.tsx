@@ -40,6 +40,7 @@ export const Projects = ({ projects }: ProjectsListProps) => {
       justifyContent="space-around"
       _dark={{ background: "#0c0c0d", borderBottom: "2px solid #7f7f7f" }}
       borderBottom="2px solid #212529"
+      id="projetos"
     >
       <Text
         textAlign="center"

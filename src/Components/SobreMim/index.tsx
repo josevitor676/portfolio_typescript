@@ -2,6 +2,7 @@ import { Box, Flex, List, ListItem, Text } from "@chakra-ui/react"
 export const SobreMim = () => {
     return (
         <Flex
+        id="sobre"
         flexDirection={["column","column","row"]}
         justifyContent="space-around" 
         alignItems="center" 

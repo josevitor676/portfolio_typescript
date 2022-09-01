@@ -6,7 +6,7 @@ import {SiTypescript, SiJavascript, SiCss3, SiHtml5, SiGithub, SiRedux, SiStyled
 
 export const Tecnlogias = () => {
     return (
-        <Flex flexDirection="column" h={["auto","auto", "auto", "auto", "100vh"]} justifyContent="space-around" _dark={{background: "#0c0c0d", borderBottom: "2px solid #7f7f7f"}} borderBottom="2px solid #212529">
+        <Flex id="tecnologia" flexDirection="column" h={["auto","auto", "auto", "auto", "100vh"]} justifyContent="space-around" _dark={{background: "#0c0c0d", borderBottom: "2px solid #7f7f7f"}} borderBottom="2px solid #212529">
 
             <Text fontSize={["25px","30px","40px"]} fontWeight="bold" color="#1747A6" textAlign="center" mt="20px">Tecnologias</Text>
 

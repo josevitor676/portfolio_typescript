@@ -1,5 +1,6 @@
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
+import {Link} from "react-scroll/modules"
 
 export const MenuOptions = () => {
   return (
@@ -16,50 +17,58 @@ export const MenuOptions = () => {
         _dark={{color: "#7f7f7f", background: "#0c0c0d"}}
         
       >
-        <MenuItem
-        fontWeight="bold"
-        fontSize="18px"
-        _hover={{
-          color: "#1747A6",
-          transition: "ease 0.6s",
-          opacity: "0.8",
-        }}
-        >
-          Sobre
-        </MenuItem>
-        <MenuItem
-        fontWeight="bold"
-        fontSize="18px"
-        _hover={{
-          color: "#1747A6",
-          transition: "ease 0.6s",
-          opacity: "0.8",
-        }}
-        >
-          Tecnologias
-        </MenuItem>
-        <MenuItem
-        fontWeight="bold"
-        fontSize="18px"
-        _hover={{
-          color: "#1747A6",
-          transition: "ease 0.6s",
-          opacity: "0.8",
-        }}
-        >
-          Projetos
-        </MenuItem>
-        <MenuItem
-        fontWeight="bold"
-        fontSize="18px"
-        _hover={{
-          color: "#1747A6",
-          transition: "ease 0.6s",
-          opacity: "0.8",
-        }}
-        >
-          Contato
-        </MenuItem>
+        <Link to="sobre" spy smooth duration={500}>
+          <MenuItem
+          fontWeight="bold"
+          fontSize="18px"
+          _hover={{
+            color: "#1747A6",
+            transition: "ease 0.6s",
+            opacity: "0.8",
+          }}
+          >
+            Sobre
+          </MenuItem>
+        </Link>
+        <Link to="tecnologia" spy smooth duration={500}>
+          <MenuItem
+          fontWeight="bold"
+          fontSize="18px"
+          _hover={{
+            color: "#1747A6",
+            transition: "ease 0.6s",
+            opacity: "0.8",
+          }}
+          >
+            Tecnologias
+          </MenuItem>
+        </Link>
+        <Link to="projetos" spy smooth duration={500}>
+          <MenuItem
+          fontWeight="bold"
+          fontSize="18px"
+          _hover={{
+            color: "#1747A6",
+            transition: "ease 0.6s",
+            opacity: "0.8",
+          }}
+          >
+            Projetos
+          </MenuItem>
+        </Link>
+        <Link to="contato" spy smooth duration={500}>
+          <MenuItem
+          fontWeight="bold"
+          fontSize="18px"
+          _hover={{
+            color: "#1747A6",
+            transition: "ease 0.6s",
+            opacity: "0.8",
+          }}
+          >
+            Contato
+          </MenuItem>
+        </Link>
       </MenuList>
     </Menu>
   );
